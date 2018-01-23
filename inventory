@@ -4,6 +4,14 @@ localhost
 [intranetweb]
 servera.lab.example.com
 
+[webservers]
+servera
+serverb
+
+[testing]
+serverc
+serverd
+
 [everyone:children]
 myself
 intranetweb
